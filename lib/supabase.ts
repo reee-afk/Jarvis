@@ -7,4 +7,3 @@ export function getSupabaseServer() {
   const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
   return createClient(url, serviceKey);
 }
-i
